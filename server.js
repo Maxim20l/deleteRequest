@@ -16,7 +16,7 @@ server.on('request', (req, res) => {
                 if (error) throw error;
             }
             )
-            setStatusCode(res, 200, 'All was ok');
+            setStatusCode(res, 200, 'All');
         }
         res.end()
     } catch (error) {
